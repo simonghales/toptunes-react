@@ -1,0 +1,40 @@
+.c-top-section {
+}
+
+  .c-top-section__title {
+    font-size: 1.7rem;
+    font-weight: 300;
+    text-align: center;
+
+    strong {
+      font-weight: 600;
+    }
+
+  }
+
+  .c-top-section__content {
+    //display: flex;
+    margin-top: 16px;
+  }
+
+    .c-top-section__content__item {
+      //flex: 33.33%;
+      float: left;
+      width: 33.33%;
+      padding: 16px;
+    }
+
+    .c-top-section__filters {
+      text-align: right;
+    }
+
+      .c-top-section__filters__option {
+        @include resetButton();
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+    .c-top-section__block {
+      background-color: #999999;
+      min-height: 300px;
+    }

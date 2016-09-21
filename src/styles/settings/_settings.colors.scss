@@ -1,0 +1,11 @@
+$rawColors: (
+  warmYellow: #FFC400
+);
+
+$componentColors: (
+  main-page__bg-shade: map_get($rawColors, warmYellow)
+);
+
+$textColors: (
+  inverted: map_get($rawColors, warmYellow)
+);

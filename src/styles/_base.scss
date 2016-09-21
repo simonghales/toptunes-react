@@ -10,3 +10,26 @@ For example:
 @import './variables/components';
 @import './themes/default';
 */
+
+
+// Settings
+@import 'settings/settings.colors';
+@import 'settings/settings.fonts';
+
+// Tools
+@import 'tools/tool.button';
+
+// Elements
+@import 'elements/element.body';
+@import 'elements/element.headings';
+
+// Objects
+@import 'objects/object.centered-wrapper';
+@import 'objects/object.main-section';
+
+// Components
+@import 'components/shared/buttons/component.shared.button.major';
+
+@import 'components/component.main-page';
+@import 'components/component.site-intro';
+@import 'components/component.top-section';

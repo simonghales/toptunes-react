@@ -1,0 +1,8 @@
+
+$font-roboto: 'Roboto', Helvetica, Arial, sans-serif;
+$font-roboto-slab: 'Roboto Slab', Helvetica, Arial, sans-serif;
+
+$fonts: (
+        body: $font-roboto,
+        heading: $font-roboto-slab
+);

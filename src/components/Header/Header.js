@@ -1,18 +1,13 @@
 import React from 'react'
-import { IndexLink, Link } from 'react-router'
-import './Header.scss'
 
 export const Header = () => (
-  <div>
-    <h1>React Redux Starter Kit</h1>
-    <IndexLink to='/' activeClassName='route--active'>
-      Home
-    </IndexLink>
-    {' · '}
-    <Link to='/counter' activeClassName='route--active'>
-      Counter
-    </Link>
-  </div>
+  <header className="c-site-header">
+    <h2 className="c-site-header__intro-title">your <strong>Spotify</strong></h2>
+    <h1 className="c-site-header__main-title">Top Tunes</h1>
+    <div className="c-site-header__prompt-wrapper">
+      <button className="c-site-header__prompt">Get Started</button>
+    </div>
+  </header>
 )
 
 export default Header
